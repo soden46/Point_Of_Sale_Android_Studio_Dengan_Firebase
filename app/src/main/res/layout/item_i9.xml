@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/profile_ex"
+                app:civ_border_color="@android:color/white"
+                app:civ_border_width="2dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:paddingStart="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textFullName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SYARIF SYARIFUDDIN"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/textEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5190311079"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:padding="13dp"
+                android:src="@drawable/ic_notification"/>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <AutoCompleteTextView
+        android:id="@+id/textViewSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/background_gray_round"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="12dp"
+        android:focusable="false"
+        android:hint="@string/label_search"
+        android:padding="10sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:startIconContentDescription="@string/label_email"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item1"
+        android:layout_width="386dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/dark_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearch">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="208dp">
+
+            <ImageView
+                android:id="@+id/imageProduct"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/i9" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="280dp"
+                android:layout_height="222dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textProduct"
+                    android:layout_width="236dp"
+                    android:layout_height="wrap_content"
+                    android:text="Intel Core I9-90900K"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textStock"
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:text="Spesifikasi"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/textSpk"
+                        android:layout_width="225dp"
+                        android:layout_height="match_parent"
+                        android:text="Code Name: Coffee Lake"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textSpk2"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cores/treads: 8/16 "
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk3"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lithography: 14 nm "
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk4"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Processor Base Frequency: 3.60 GHz "
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk5"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Max Turbo Frequency: 5.00 GHz "
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk6"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cache: 16 MB"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk7"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bus Speed: 8 GT/s"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk8"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="TDP: 95 W"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk9"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Max Memory Size Support: 128 GB DDR4-2666"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textSpk10"
+                    android:layout_width="225dp"
+                    android:layout_height="wrap_content"
+                    android:text="Memory Channels: 2"
+                    android:textColor="@color/black"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

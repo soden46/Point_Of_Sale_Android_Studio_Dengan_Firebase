@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "263290473284",
+    "project_id": "tugasbesarsyarif",
+    "storage_bucket": "tugasbesarsyarif.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263290473284:android:30c41fdd70a69513b92511",
+        "android_client_info": {
+          "package_name": "com.example.posapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263290473284-6jq5tm9t7fssnhdobuur24onhuecp0lf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.posapp",
+            "certificate_hash": "a1349565505f1a55d5eb3671c1f2c02cb5223242"
+          }
+        },
+        {
+          "client_id": "263290473284-9hfeel6fkm46vq6fh9qjfooumk3qevap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArucNdE_-u4XRVd5UokYi0wGM2h--qcuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263290473284-9hfeel6fkm46vq6fh9qjfooumk3qevap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

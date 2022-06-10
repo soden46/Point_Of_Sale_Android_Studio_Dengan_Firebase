@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/uda/PoSApp/app/src/main/res/drawable/splash_bg.xml" value="0.1" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/activity_category.xml" value="0.22" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/activity_order.xml" value="0.184375" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/activity_pos_settings.xml" value="0.184375" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/i3_product.xml" value="0.13828125" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/item_i3.xml" value="0.16666666666666666" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/item_i5.xml" value="0.22" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/item_i7.xml" value="0.22" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/item_i9.xml" value="0.184375" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/item_product.xml" value="0.18333333333333332" />
+        <entry key="..\:/uda/PoSApp/app/src/main/res/layout/order_layout.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
